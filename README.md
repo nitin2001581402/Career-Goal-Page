@@ -63,10 +63,7 @@ cd your-repo-name
 2. Run Backend
 cd backend
 npm install
-npm start
-
-
-Backend will run on: http://localhost:4000
+node server.js
 
 3. Run Frontend
 
@@ -74,6 +71,5 @@ Open a new terminal:
 
 cd frontend
 npm install
-npm start
+npm run dev
 
-Frontend will be available at: http://localhost:3000
