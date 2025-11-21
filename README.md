@@ -59,3 +59,21 @@ It helps users analyze their skill gaps based on their target career role, provi
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+2. Run Backend
+cd backend
+npm install
+npm start
+
+
+Backend will run on: http://localhost:4000
+
+3. Run Frontend
+
+Open a new terminal:
+
+cd frontend
+npm install
+npm start
+
+Frontend will be available at: http://localhost:3000
