@@ -1,0 +1,211 @@
+.layout {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  color: #333;
+}
+
+.title {
+  text-align: center;
+  color: #0070f3;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.form-box label {
+  display: block;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 6px;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.form-box select,
+.form-box input {
+  width: 100%;
+  margin-top: 6px;
+  padding: 14px 18px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  outline-color: #0070f3;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-box select:hover,
+.form-box input:hover,
+.form-box select:focus,
+.form-box input:focus {
+  border-color: #0070f3;
+  box-shadow: 0 0 5px rgba(0,112,243,0.4);
+}
+
+.form-box button {
+  width: 100%;
+  padding: 16px;
+  margin-top: 30px;
+  background-color: #0070f3;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-box button:hover:not(:disabled) {
+  background-color: #005bb5;
+  box-shadow: 0 4px 12px rgba(0, 91, 181, 0.5);
+}
+
+.form-box button:disabled {
+  background-color: #a0c3ff;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #c53030;
+  margin-top: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.results {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.left, .right {
+  flex: 1 1 400px;
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  scroll-behavior: smooth;
+}
+
+.left {
+  max-height: 650px;
+  overflow-y: auto;
+}
+
+.right {
+  max-width: 450px;
+  min-width: 300px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+
+  /* Sticky sidebar */
+  position: sticky;
+  top: 20px;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+
+.card h2 {
+  margin-top: 0;
+  border-bottom: 3px solid #0070f3;
+  padding-bottom: 8px;
+  color: #0070f3;
+  font-size: 1.5rem;
+}
+
+.left p, .right p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.left ul, .right ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.left ul li, .right ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #444;
+  transition: color 0.2s ease;
+}
+
+.left ul li:hover, .right ul li:hover {
+  color: #0070f3;
+  cursor: default;
+}
+
+.latest-news {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 2px solid #eee;
+}
+
+.latest-news h2 {
+  color: #0070f3;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.latest-news ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.latest-news li {
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.2s ease;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+.latest-news li:hover {
+  background-color: #e8f0fe;
+}
+
+.latest-news a {
+  font-weight: 600;
+  color: #0070f3;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.latest-news a:hover {
+  text-decoration: underline;
+}
+
+.news-meta {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+@media (max-width: 720px) {
+  .results {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    max-height: none;
+    overflow-y: visible;
+    position: static;
+  }
+
+  .form-box select,
+  .form-box input,
+  .form-box button {
+    font-size: 1.1rem;
+    padding: 14px 20px;
+  }
+}
