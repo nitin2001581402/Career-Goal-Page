@@ -18,12 +18,11 @@ It helps users analyze their skill gaps based on their target career role, provi
 ## Demo Screenshots
 
 
-| Dashboard View                        | Skill Gap & Roadmap Detail           |
+| Dashboard View                        | Skill Gap & Career Roadmap Detail           |
 |-------------------------------------|------------------------------------|
-| ![Dashboard Screenshot] (<img width="883" height="848" alt="Screenshot 2025-11-21 235046" src="https://github.com/user-attachments/assets/6830f788-79fe-4636-9b3b-54554c8c1dc3" />) | ![Skill Gap Screenshot](<img width="882" height="841" alt="Screenshot 2025-11-21 235113" src="https://github.com/user-attachments/assets/e1e5ea89-b7dd-48ad-888b-a15a01f9f1c5" />
+|(<img width="883" height="848" alt="Screenshot 2025-11-21 235046" src="https://github.com/user-attachments/assets/6830f788-79fe-4636-9b3b-54554c8c1dc3" />) | (<img width="882" height="841" alt="Screenshot 2025-11-21 235113" src="https://github.com/user-attachments/assets/e1e5ea89-b7dd-48ad-888b-a15a01f9f1c5" />
 ) |
 
-*(Replace the links above with your actual hosted screenshot URLs)*
 
 ---
 
