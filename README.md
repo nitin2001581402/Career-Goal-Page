@@ -1,17 +1,21 @@
 # Career Goal & Skill Gap Analyzer
 
-This **Career Goal & Skill Gap Analyzer** is a full-stack web application built with **React** on the frontend and **Node.js + Express** on the backend.  
-It helps users analyze their skill gaps based on their target career role, provides a career roadmap, and shows the latest tech news from HackerNews API.
+This LinkedIn Clone is a full-stack social platform built with React on the frontend and Node.js + Express + MongoDB on the backend.
+It allows users to log in, create posts, view feeds, connect with people, and manage their LinkedIn-style profile.
 
 ---
 
 ## Features
 
-- Enter a target role (e.g., Backend Developer) and current skills (comma-separated).  
-- Skill Gap Analyzer API that returns matched skills, missing skills, recommendations, and suggested learning order.  
-- Career Roadmap Generator API providing a 3-level career roadmap mock based on the selected role.  
-- Integration with HackerNews public API to display the latest 5 tech news stories.  
-- Combined dashboard layout with skill gap results, career roadmap, and latest news in a responsive and clean UI.
+- Google Login authentication (optional custom JWT login).
+- Create posts with text, image, or video.
+- View posts from all users in the feed.
+- Basic chat icon shown on posts (future feature extension).
+- "People You May Know" — random suggested users.
+- Add / Remove Connections.
+- Profile section showing user info, photo, and connections.
+- Fully responsive UI similar to LinkedIn layout.
+- 
 
 ---
 
@@ -28,20 +32,19 @@ It helps users analyze their skill gaps based on their target career role, provi
 ## Technology Stack
 
 - **Frontend:**  
-  - React.js  
-  - Axios for API calls  
-  - CSS (custom styling)
+  - React.js
+  - Axios for API requests
+  - TailwindCSS
 
 - **Backend:**  
   - Node.js  
-  - Express.js  
+  - Express.js
+  - MongoDB 
 
 - **APIs:**  
-  - Custom Skill Gap and Roadmap APIs (mock logic)  
-  - Public HackerNews API integration  
+  - Google OAuth (or JWT login system) 
 
-- **Storage:**  
-  - No database (optional JSON or in-memory storage if used)
+
 
 ---
 
